@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'api_app'
 ]
 
 MIDDLEWARE = [
@@ -134,6 +137,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+#AUTH
+AUTH_USER_MODEL = 'api_app.UserProfile'
 
 django_heroku.settings(locals())
 
