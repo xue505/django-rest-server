@@ -23,7 +23,7 @@ class UserProfileManager(BaseUserManager):
         """ Creating a new UserProfile superuser object """
 
         user = self.create_user(email, name, password)
-        
+
         user.is_superuser = True
         user.is_staff = True
 
