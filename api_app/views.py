@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
-from rest_framework import viewsets
+from rest_framework import viewsets, status
 from rest_framework.response import Response
-from rest_framework import status
+from rest_framework.authentication import TokenAuthentication
+
 from . import serializers
+from . import models
+from . import permissions
 
 class HelloApiView(APIView):
     """ Test api method """
@@ -92,3 +95,11 @@ class HelloViewSet(viewsets.ViewSet):
         """Handles removing an object"""
 
         return Response({'http_method' : 'DELETE'})
+
+
+class UserProfileViewSet(viewsets.ModelViewSet):
+    queryset = models.UserProfile.objects.all()
+    serializer_class = serializers.UserProfileSerailizer
+
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (permissions.UpdateOwnProfile, )
