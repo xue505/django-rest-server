@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629d439e-52a7-41db-b03d-7d2b0dbc1346" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_app/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_app/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,14 +53,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3836" />
+          <entry key="py" value="3919" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="3836" />
+          <entry key="Python" value="3919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,12 +106,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="720">
+              <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
               <folding>
-                <marker date="1534070852225" expanded="true" signature="338:339" ph="..." />
-                <marker date="1534070852225" expanded="true" signature="460:465" ph="..." />
-                <marker date="1534070852225" expanded="true" signature="1554:1559" ph="..." />
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1534071617142" expanded="true" signature="340:341" ph="..." />
+                <marker date="1534071617142" expanded="true" signature="462:467" ph="..." />
+                <marker date="1534071617142" expanded="true" signature="1556:1561" ph="..." />
               </folding>
             </state>
           </provider>
@@ -430,12 +429,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="720">
+          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
           <folding>
-            <marker date="1534070852225" expanded="true" signature="338:339" ph="..." />
-            <marker date="1534070852225" expanded="true" signature="460:465" ph="..." />
-            <marker date="1534070852225" expanded="true" signature="1554:1559" ph="..." />
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1534071617142" expanded="true" signature="340:341" ph="..." />
+            <marker date="1534071617142" expanded="true" signature="462:467" ph="..." />
+            <marker date="1534071617142" expanded="true" signature="1556:1561" ph="..." />
           </folding>
         </state>
       </provider>
